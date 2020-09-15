@@ -1,0 +1,1 @@
+web: kubectl apply -f kube/deployment.yaml && kubectl port-forward service/basic-example 80:80
